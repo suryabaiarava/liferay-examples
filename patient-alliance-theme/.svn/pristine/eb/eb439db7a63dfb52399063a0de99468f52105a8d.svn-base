@@ -1,0 +1,10 @@
+{
+  "LiferayTheme": {
+    "appServerPath": "D:\\Liferay7\\liferay-ce-portal-7.0-ga3\\tomcat-8.0.32",
+    "deployPath": "D:\\Liferay7\\liferay-ce-portal-7.0-ga3\\deploy",
+    "url": "http://localhost:8080",
+    "appServerPathPlugin": "D:\\Liferay7\\liferay-ce-portal-7.0-ga3\\tomcat-8.0.32\\webapps\\patient-alliance-theme",
+    "deployed": true,
+    "pluginName": "patient-alliance-theme"
+  }
+}

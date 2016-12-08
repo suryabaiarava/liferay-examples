@@ -1,0 +1,86 @@
+body{
+       background-color: #e6e9ee;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.homepage-content .container{
+    background-color: #fff;
+    margin: 30px auto;
+}
+
+.homepage-content div{
+    padding: 10px;    
+
+}
+@media (max-width:1024px){
+    .container{
+        width: 100%;
+    }
+}
+
+/*.panel{
+    background-color: #adcfff;
+}*/
+.nav-tabs > li > a{
+    border-bottom: 0px;   
+    border: 0px;   
+    height: 42px;
+    
+}
+.nav-tabs > li > a:hover{
+    border-bottom: 0px;
+    background-color: #fff;
+    border: 0px;
+    height: 42px;
+   
+}
+/**********Buttons***********/
+.btn-btn1 {
+    background: #128c8f;
+    color: #fff;
+    width: 145px;    
+}
+.btn-btn1:hover, .btn-btn1:active, .btn-btn1:focus, .btn-btn1:active:focus{
+    background: #25a5a8;
+    color: #fff;
+    outline: none;
+}
+.btn-btn2 {
+    background-color: #3bc1c5;
+    position: relative;
+    top: -1px;
+    right: -15px;
+}
+a.btn-btn2{
+    background-color: #3bc1c5;
+   color: #fff!important;
+}
+.btn-btn3 {
+    background: #128c8f;
+    color: #fff;
+    padding: 5px 10px;
+}    
+.close-button {
+
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+          transition:         transform .5s ease-in-out;
+    opacity: 0.7!important;
+    font-size:35px;
+    font-weight:100;
+}
+.close-button:hover{
+     -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+    opacity: 5!important;
+}
+@media (max-width:767px){.btn-btn1{width: 80px;}}
+
+div.modal-full.confirm-modal .modal-dialog {
+    width: 60%;
+}
+div#confirm-delete {
+    z-index: 99999999999;
+}
+
+
